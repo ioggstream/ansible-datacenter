@@ -88,7 +88,7 @@ Example Playbook
     - name: "Install Docker datacenter"
       hosts: all
       roles:
-        - role: ansible-datacenter
+        - role: docker-datacenter
 
 License
 -------
